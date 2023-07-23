@@ -1,10 +1,6 @@
-"""
-数据定义的类
-"""
-
 class Record:
-    def __init__(self, data, order_id, money, city):
-        self.data = data
+    def __init__(self,date,order_id,money,province):
+        self.date = date
         self.order_id = order_id
         self.money = money
-        self.city = city
+        self.province = province
